@@ -1,0 +1,6 @@
+line,from_node,to_node,capacity_mw,length_km,loss_percent_per_100km,climate_exposure
+Line_A,North,Central,600,180,2.1,heat
+Line_B,South,Central,450,140,1.8,storm
+Line_C,West,Central,300,220,2.4,wildfire
+Line_D,Central,East,550,160,2.0,flood
+Line_E,East,South,250,120,1.7,storm

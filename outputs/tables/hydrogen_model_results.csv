@@ -1,0 +1,4 @@
+scenario,hydrogen_kg_calculated,water_liters_required,capacity_factor
+Low Utilization,19230.77,173076.92,0.30
+High Utilization,20000.00,180000.00,0.75
+Advanced Electrolyzer,22222.22,200000.00,0.65

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Energy Systems Code"
+authors:
+  - family-names: "Ahmad"
+    given-names: "Tariq"
+organization: "Content Catalyst LLC"
+year: 2026
+license: MIT
+repository-code: "https://github.com/Content-Catalyst-LLC/energy-systems-code"
+keywords:
+  - energy systems
+  - grid modeling
+  - renewable energy
+  - energy storage
+  - emissions accounting
+  - energy justice
+  - infrastructure resilience

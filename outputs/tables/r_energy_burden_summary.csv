@@ -1,0 +1,6 @@
+"region","housing_type","energy_burden"
+"rural","owner",0.045945945945946
+"suburban","owner",0.0573294346978558
+"urban","owner",0.075609756097561
+"rural","renter",0.161111111111111
+"urban","renter",0.113557993730408

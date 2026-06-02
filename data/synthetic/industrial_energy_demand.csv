@@ -1,0 +1,7 @@
+sector,process,annual_energy_gwh,temperature_requirement_c,current_fuel,electrification_potential
+steel,reheat_furnace,950,1200,natural_gas,medium
+cement,kiln,1450,1450,coal,low
+chemicals,steam_cracking,1300,850,natural_gas,medium
+food,process_heat,320,160,natural_gas,high
+paper,drying,410,180,natural_gas,high
+refining,hydrogen_production,900,700,natural_gas,medium

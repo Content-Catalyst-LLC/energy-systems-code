@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\section*{Core Energy Systems Equations}
+
+Energy and power:
+\[
+E = P t
+\]
+
+Capacity factor:
+\[
+CF = \frac{E_{\text{actual}}}{P_{\text{nameplate}} \cdot t}
+\]
+
+Storage state of charge:
+\[
+SOC_{t+1} = SOC_t + \eta_c C_t - \frac{D_t}{\eta_d}
+\]
+
+Emissions intensity:
+\[
+I = \frac{\sum_i E_i f_i}{\sum_i E_i}
+\]
+
+Energy burden:
+\[
+B = \frac{\text{Annual Energy Cost}}{\text{Annual Household Income}}
+\]
+
+Simplified levelized cost:
+\[
+LCOE = \frac{CAPEX \cdot CRF + FOM}{8760 \cdot CF} + VOM + Fuel
+\]
+
+\end{document}

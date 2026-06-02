@@ -1,0 +1,8 @@
+plant,technology,nameplate_mw,variable_cost_usd_mwh,emissions_kg_co2_mwh,forced_outage_rate,capacity_credit
+Prairie Wind 1,wind,300,0,0,0.04,0.18
+South Solar 1,solar,280,0,0,0.03,0.35
+River Hydro 1,hydro,120,8,0,0.02,0.70
+North Gas CC,natural_gas_cc,450,48,370,0.07,0.88
+Peaker Gas CT,natural_gas_ct,180,92,560,0.10,0.92
+Legacy Coal 1,coal,500,62,950,0.12,0.85
+Nuclear Base 1,nuclear,650,18,12,0.05,0.93

@@ -1,4 +1,6 @@
-numpy>=1.26
-pandas>=2.2
-matplotlib>=3.8
-jupyter>=1.0
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+jupyter

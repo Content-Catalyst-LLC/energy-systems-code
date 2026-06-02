@@ -1,0 +1,9 @@
+household_id,region,housing_type,energy_burden,burden_category
+H001,urban,renter,0.141,severe
+H002,suburban,owner,0.078,high
+H003,suburban,owner,0.050,moderate
+H004,rural,renter,0.161,severe
+H005,rural,owner,0.046,moderate
+H006,urban,renter,0.086,high
+H007,urban,owner,0.076,high
+H008,suburban,owner,0.044,moderate

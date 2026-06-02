@@ -1,0 +1,7 @@
+technology,capital_component_usd_mwh,fixed_om_component_usd_mwh,variable_plus_fuel_usd_mwh,simplified_lcoe_usd_mwh
+solar,44.08,8.56,0.00,52.64
+wind,39.94,12.62,0.00,52.56
+natural_gas_cc,18.40,3.32,42.00,63.72
+nuclear,78.54,16.22,10.00,104.76
+battery_storage,100.97,17.76,0.00,118.72
+coal,71.93,10.96,40.00,122.89

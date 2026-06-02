@@ -1,0 +1,25 @@
+name: Smoke Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  python-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run default Python workflows
+        run: python3 python/run_all.py
+      - name: Compile C example
+        run: |
+          gcc c/energy_balance.c -o outputs/tables/energy_balance_c.out
+          ./outputs/tables/energy_balance_c.out
+      - name: Compile C++ example
+        run: |
+          g++ cpp/dispatch_merit_order.cpp -o outputs/tables/dispatch_merit_order_cpp.out
+          ./outputs/tables/dispatch_merit_order_cpp.out

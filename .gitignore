@@ -4,6 +4,7 @@ __pycache__/
 .venv/
 venv/
 .env
+.ipynb_checkpoints/
 
 # R
 .Rhistory
@@ -14,23 +15,20 @@ venv/
 .julia/
 Manifest.toml
 
-# Rust
-rust/target/
-Cargo.lock
-
-# Compiled artifacts
+# Build outputs
 *.o
 *.out
 *.exe
-*.dSYM/
-
-# Notebook checkpoints
-.ipynb_checkpoints/
+*.mod
+target/
+build/
+dist/
 
 # OS/editor
 .DS_Store
 .vscode/
 .idea/
 
-# Local logs
-*.log
+# Generated temporary outputs
+outputs/tmp/
+data/processed/*.tmp

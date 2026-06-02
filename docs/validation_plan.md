@@ -1,10 +1,13 @@
 # Validation Plan
 
-Validation checks should include:
+Recommended validation layers:
 
-1. Unit consistency for MWh, MW, hours, and emissions factors.
-2. Non-negative demand, generation, emissions, curtailment, and unmet demand.
-3. Battery state of charge bounded between zero and maximum capacity.
-4. Conservation checks across supply, demand, curtailment, storage, and unmet demand.
-5. Sensitivity tests for storage capacity, round-trip efficiency, renewable penetration, and demand growth.
-6. Scenario comparison under high-demand, low-renewable, and infrastructure-stress conditions.
+1. Unit checks for power, energy, cost, and emissions.
+2. Conservation checks for energy balance and storage state of charge.
+3. Boundary checks on storage capacity, power limits, and demand response.
+4. Sensitivity testing on fuel prices, capacity factors, storage efficiency, and demand growth.
+5. Comparison to known analytical cases where possible.
+6. Clear separation of synthetic teaching data from public or operational datasets.
+7. Documentation of assumptions before policy or engineering interpretation.
+
+Applied planning should use validated datasets, professional power-system tools, system-operator data, and expert review.

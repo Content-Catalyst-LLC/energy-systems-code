@@ -1,14 +1,28 @@
 # Energy Systems Code
 
-Companion repository for the Energy Systems knowledge series. The repository is designed for reproducible energy systems learning, scenario analysis, grid and storage modeling, emissions accounting, synthetic data workflows, and multi-language computational examples.
+Companion repository for the Energy Systems knowledge series.
 
-## Purpose
+This repository supports reproducible scientific, engineering, and policy-oriented examples for energy systems, including grid dispatch, renewable variability, storage, capacity factors, emissions accounting, demand response, microgrid resilience, energy affordability, industrial decarbonization, hydrogen systems, and climate-risk stress scenarios.
 
-This repository supports practical and transparent analysis of energy systems as technical, institutional, ecological, economic, and social systems. It includes examples for energy balance, power and energy conversion, storage dispatch, renewable variability, grid reliability, emissions intensity, lifecycle thinking, scenario comparison, and policy-facing interpretation.
+The repository is designed to be useful for engineers, scientists, policy analysts, infrastructure planners, students, technical writers, and public-interest researchers. It includes dependency-light teaching examples, synthetic datasets, technical notes, notebooks, and optional advanced workflows.
 
-## Languages and tools
+## Scope
 
-The repository includes examples in:
+The repository supports articles on:
+
+- Energy, power, work, and thermodynamics
+- Electricity grids, transmission, distribution, microgrids, and reliability
+- Renewable energy systems and variability
+- Energy storage and dispatch
+- Fossil-fuel transition, electrification, hydrogen, nuclear, and industrial decarbonization
+- Energy markets, public utilities, policy, security, and geopolitics
+- Energy justice, energy poverty, affordability, and resilience
+- Lifecycle assessment, emissions accounting, and critical materials
+- Digital energy infrastructure, AI, and future energy systems
+
+## Language Coverage
+
+Included languages and tools:
 
 - Python
 - R
@@ -19,58 +33,39 @@ The repository includes examples in:
 - Go
 - Fortran
 - SQL
-- Bash
+- MATLAB/Octave
 - Modelica
-- GNU Octave / MATLAB-compatible scripts
+- Bash
 - Jupyter notebooks
+- LaTeX documentation
 
-The default workflows are intentionally dependency-light. Optional advanced workflows can use pandas, matplotlib, numpy, and related tools when available.
+## Quick Start
 
-## Repository structure
-
-```text
-energy-systems-code/
-├── articles/              # Per-article scaffolds and local examples
-├── bash/                  # Run scripts and smoke tests
-├── c/                     # C examples
-├── cpp/                   # C++ examples
-├── data/                  # Raw, processed, and synthetic data
-├── docs/                  # Method notes, data dictionary, validation plan
-├── fortran/               # Fortran examples
-├── go/                    # Go examples
-├── julia/                 # Julia examples
-├── modelica/              # Modelica system models
-├── notebooks/             # Jupyter notebooks
-├── octave/                # GNU Octave / MATLAB-compatible scripts
-├── outputs/               # Generated figures, tables, and logs
-├── python/                # Python workflows
-├── r/                     # R workflows
-├── rust/                  # Rust examples
-├── sql/                   # SQL schema and example queries
-└── tests/                 # Lightweight validation checks
-```
-
-## Run the default smoke test
+Run the lightweight smoke tests:
 
 ```bash
 bash bash/run_smoke_tests.sh
 ```
 
-The smoke test runs the Python default workflow and then attempts to run or compile examples in other languages when the required interpreters or compilers are installed. Missing optional languages are skipped with a clear message.
+Run all default Python workflows:
 
-## Optional advanced Python setup
+```bash
+python3 python/run_all.py
+```
+
+Optional advanced Python setup:
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements-advanced.txt
-python python/advanced_energy_plots.py
+python3 python/advanced_energy_dashboard.py
 ```
 
-## Data notes
+## Repository Design
 
-All included data are synthetic demonstration data unless explicitly documented otherwise. They are designed for reproducible modeling, teaching, scenario exploration, and methods demonstration.
+Default scripts avoid fragile dependency chains. Advanced scripts are optional and clearly separated. Synthetic data is included for reproducibility, teaching, validation, and article support.
 
-## Responsible use
+## Scientific and Engineering Use
 
-These workflows are for energy systems learning, public-interest analysis, reproducible modeling, and scenario exploration. They should not be used as authoritative operational tools for real-time grid dispatch, safety-critical engineering decisions, financial trading, regulatory compliance, or emergency management without professional validation and domain-specific review.
+This repository provides educational and exploratory workflows. Engineering planning, grid operations, procurement decisions, safety-critical design, and public policy should rely on validated datasets, appropriate standards, professional review, and domain-specific modeling.

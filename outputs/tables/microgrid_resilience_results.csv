@@ -1,0 +1,5 @@
+scenario,critical_load_served_fraction,unserved_critical_load_mwh,resilience_score
+Heatwave Substation Failure,0.938,150.00,0.682
+Ice Storm Transmission Loss,0.968,100.00,0.553
+Wildfire Distribution Damage,1.000,0.00,0.667
+Flooded Gas Compressor,0.950,100.00,0.585

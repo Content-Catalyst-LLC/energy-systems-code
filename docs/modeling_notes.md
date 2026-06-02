@@ -1,18 +1,21 @@
 # Modeling Notes
 
-Energy systems models are simplifications. The examples in this repository emphasize transparent reasoning over operational realism.
+This repository emphasizes transparent, reproducible teaching models for energy systems.
 
-Core concepts represented here include:
+Core modeling areas:
 
-- Energy balance
-- Power and time conversion
+- Energy balance and dispatch
 - Renewable variability
-- Battery state of charge
-- Charge and discharge efficiency
-- Curtailment
-- Unmet demand
-- Thermal backup
-- Emissions accounting
-- Scenario comparison
+- Storage state of charge
+- Capacity factor
+- Emissions intensity
+- Simplified LCOE
+- Energy burden
+- Demand response
+- Microgrid resilience
+- Transmission congestion
+- Industrial decarbonization
+- Hydrogen production
+- Climate-risk stress testing
 
-Professional-grade energy models may require security-constrained dispatch, unit commitment, transmission constraints, nodal pricing, weather data, fuel-price scenarios, outage probabilities, regulatory assumptions, and validated engineering parameters.
+Default models are intentionally simple and interpretable. They are designed to support article explanations and technical learning, not operational dispatch or certified planning.

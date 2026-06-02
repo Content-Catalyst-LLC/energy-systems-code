@@ -1,0 +1,6 @@
+asset,stressor,baseline_risk_score,midcentury_risk_score,adaptation_priority
+Transmission Line A,extreme_heat,0.35,0.62,high
+Gas Plant North,river_flooding,0.22,0.48,medium
+Solar Farm South,hailstorm,0.18,0.34,medium
+Distribution Circuit West,wildfire,0.40,0.72,high
+Coastal Substation,storm_surge,0.50,0.82,critical

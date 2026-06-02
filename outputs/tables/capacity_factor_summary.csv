@@ -1,0 +1,8 @@
+plant,technology,nameplate_mw,estimated_generation_mwh,capacity_factor
+Prairie Wind 1,wind,300.0,3758.00,0.522
+South Solar 1,solar,280.0,3675.00,0.547
+River Hydro 1,hydro,120.0,2016.00,0.700
+North Gas CC,natural_gas_cc,450.0,9504.00,0.880
+Peaker Gas CT,natural_gas_ct,180.0,3974.40,0.920
+Legacy Coal 1,coal,500.0,10200.00,0.850
+Nuclear Base 1,nuclear,650.0,14508.00,0.930

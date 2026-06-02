@@ -1,0 +1,19 @@
+{
+  "storage": {
+    "battery_capacity_mwh": 720,
+    "battery_power_mw": 180,
+    "charge_efficiency": 0.94,
+    "discharge_efficiency": 0.94,
+    "initial_soc_mwh": 300,
+    "minimum_soc_fraction": 0.05,
+    "maximum_soc_fraction": 0.95
+  },
+  "demand_response": {
+    "max_shift_fraction": 0.08,
+    "peak_threshold_mwh": 700
+  },
+  "reliability": {
+    "critical_load_fraction": 0.35,
+    "reserve_margin_target": 0.15
+  }
+}

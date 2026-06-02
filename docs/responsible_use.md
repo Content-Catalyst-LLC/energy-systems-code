@@ -1,5 +1,5 @@
 # Responsible Use
 
-This repository is intended for reproducible learning, methods demonstration, public-interest analysis, and energy systems literacy.
+Energy system decisions affect public safety, affordability, climate stability, ecological systems, labor, industry, and community resilience.
 
-It is not a substitute for professional engineering review, utility planning, safety-critical grid operations, regulatory filings, financial investment advice, or emergency management decision systems. Real-world energy planning requires validated data, peer review, engineering constraints, institutional context, and accountability to affected communities.
+Use this repository to support learning, transparent analysis, and reproducible exploration. Do not use simplified teaching examples as substitutes for certified engineering, utility planning, regulatory review, or safety-critical decision-making.

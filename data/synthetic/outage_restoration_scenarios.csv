@@ -1,0 +1,5 @@
+scenario,critical_load_mwh,available_generation_mwh,storage_initial_mwh,storage_power_mw,restoration_hours,customers_affected
+Heatwave Substation Failure,2400,1550,700,150,18,85000
+Ice Storm Transmission Loss,3100,1800,1200,180,36,140000
+Wildfire Distribution Damage,1250,900,400,100,24,42000
+Flooded Gas Compressor,2000,1300,600,120,30,76000

@@ -1,0 +1,4 @@
+scenario,electricity_mwh,electrolyzer_efficiency_kwh_per_kg,capacity_factor,water_liters_per_kg,hydrogen_kg
+Low Utilization,1000,52,0.30,9,19230.77
+High Utilization,1000,50,0.75,9,20000.00
+Advanced Electrolyzer,1000,45,0.65,9,22222.22

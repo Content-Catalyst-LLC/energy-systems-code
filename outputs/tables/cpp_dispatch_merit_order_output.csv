@@ -1,0 +1,4 @@
+generator,dispatch_mwh,cost_usd,emissions_kg
+Wind,300,0,0
+Solar,280,0,0
+Nuclear,620,11160,7440

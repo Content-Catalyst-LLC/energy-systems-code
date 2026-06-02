@@ -1,0 +1,7 @@
+"technology","capacity_factor","capex_usd_kw","fuel_usd_mwh"
+"solar",0.24,1150,0
+"wind",0.38,1650,0
+"natural_gas_cc",0.55,1100,38
+"nuclear",0.88,8500,7
+"battery_storage",0.18,1450,0
+"coal",0.5,4200,35

@@ -1,0 +1,9 @@
+fuel_or_source,kg_co2e_per_mwh,notes
+coal,950,Direct combustion teaching factor
+natural_gas_cc,370,Combined-cycle gas teaching factor
+natural_gas_ct,560,Simple-cycle gas teaching factor
+nuclear,12,Lifecycle teaching factor
+wind,11,Lifecycle teaching factor
+solar,45,Lifecycle teaching factor
+hydro,24,Lifecycle teaching factor
+battery_discharge,0,Operational emissions assigned to charging source in detailed models

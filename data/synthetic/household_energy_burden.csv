@@ -1,0 +1,9 @@
+household_id,income_usd_yr,annual_energy_cost_usd,housing_type,region,heat_source
+H001,22000,3100,renter,urban,electric
+H002,36000,2800,owner,suburban,natural_gas
+H003,52000,2600,owner,suburban,electric
+H004,18000,2900,renter,rural,propane
+H005,74000,3400,owner,rural,electric
+H006,29000,2500,renter,urban,natural_gas
+H007,41000,3100,owner,urban,electric
+H008,95000,4200,owner,suburban,electric

@@ -1,0 +1,10 @@
+plant,technology,generation_mwh,emissions_kg_co2
+Prairie Wind 1,wind,1296.00,0.00
+South Solar 1,solar,2352.00,0.00
+River Hydro 1,hydro,2016.00,0.00
+North Gas CC,natural_gas_cc,9504.00,3516480.00
+Peaker Gas CT,natural_gas_ct,3974.40,2225664.00
+Legacy Coal 1,coal,10200.00,9690000.00
+Nuclear Base 1,nuclear,14508.00,174096.00
+TOTAL,fleet,43850.40,15606240.00
+FLEET_INTENSITY,kg_co2_per_mwh,,355.90

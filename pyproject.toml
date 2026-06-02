@@ -1,0 +1,10 @@
+[project]
+name = "energy-systems-code"
+version = "0.2.0"
+description = "Reproducible energy systems teaching, modeling, and scenario workflows."
+requires-python = ">=3.10"
+authors = [{name = "Content Catalyst LLC"}]
+license = {text = "MIT"}
+
+[tool.ruff]
+line-length = 100

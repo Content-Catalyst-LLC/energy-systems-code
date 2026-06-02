@@ -1,0 +1,6 @@
+functional_unit: "USD per MWh"
+boundary: "simplified generation cost model"
+notes:
+  - "Synthetic teaching data"
+  - "Does not include full interconnection, balancing, policy, tax, financing, or system integration costs"
+  - "Replace with project-specific data for applied work"
