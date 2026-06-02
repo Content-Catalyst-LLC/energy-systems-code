@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Julia
+.julia/
+Manifest.toml
+
+# Rust
+rust/target/
+Cargo.lock
+
+# Compiled artifacts
+*.o
+*.out
+*.exe
+*.dSYM/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local logs
+*.log

@@ -1,0 +1,19 @@
+repository: energy-systems-code
+series: Energy Systems
+status: planned
+purpose: Reproducible computational companion repository for Energy Systems article map and planned article series.
+languages:
+  - Python
+  - R
+  - Julia
+  - C
+  - C++
+  - Rust
+  - Go
+  - Fortran
+  - SQL
+  - Bash
+  - Modelica
+  - Octave
+  - Jupyter Notebook
+repository_url: https://github.com/Content-Catalyst-LLC/energy-systems-code
