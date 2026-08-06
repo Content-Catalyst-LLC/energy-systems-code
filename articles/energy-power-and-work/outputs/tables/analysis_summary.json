@@ -1,0 +1,70 @@
+{
+  "baseline_load_statistics": {
+    "duration_h": 72.0,
+    "energy_kwh": 38721.45800000001,
+    "load_factor": 0.7121954688122369,
+    "mean_power_kw": 537.798027777778,
+    "minimum_power_kw": 355.195,
+    "peak_power_kw": 755.127
+  },
+  "input": "/Users/tariqahmad/Downloads/energy-systems-code/articles/energy-power-and-work/data/raw/hourly_power_profile.csv",
+  "method": {
+    "integration": "trapezoidal rule",
+    "seed": 20260806,
+    "uncertainty": "bounded Gaussian Monte Carlo"
+  },
+  "scenarios": [
+    {
+      "avoided_energy_kwh": 0.0,
+      "conservation_residual_kwh": 0.0,
+      "energy_kwh": 38721.45800000001,
+      "load_factor": 0.7121954688122369,
+      "losses_kwh": 7043.788963595376,
+      "mean_power_kw": 537.798027777778,
+      "peak_power_kw": 755.127,
+      "scenario": "baseline",
+      "useful_energy_kwh": 31677.669036404637
+    },
+    {
+      "avoided_energy_kwh": 4646.574960000005,
+      "conservation_residual_kwh": 0.0,
+      "energy_kwh": 34074.88304000001,
+      "load_factor": 0.7121954688122367,
+      "losses_kwh": 3697.7318198064786,
+      "mean_power_kw": 473.26226444444455,
+      "peak_power_kw": 664.51176,
+      "scenario": "efficiency retrofit",
+      "useful_energy_kwh": 30377.15122019353
+    },
+    {
+      "avoided_energy_kwh": -6969.862439999975,
+      "conservation_residual_kwh": 0.0,
+      "energy_kwh": 45691.32043999999,
+      "load_factor": 0.7121954688122365,
+      "losses_kwh": 8311.670977042537,
+      "mean_power_kw": 634.6016727777776,
+      "peak_power_kw": 891.0498599999999,
+      "scenario": "demand growth",
+      "useful_energy_kwh": 37379.64946295745
+    },
+    {
+      "avoided_energy_kwh": 1936.0729000000138,
+      "conservation_residual_kwh": 0.0,
+      "energy_kwh": 36785.3851,
+      "load_factor": 0.7121954688122366,
+      "losses_kwh": 5232.634584820018,
+      "mean_power_kw": 510.9081263888889,
+      "peak_power_kw": 717.37065,
+      "scenario": "managed load",
+      "useful_energy_kwh": 31552.75051517998
+    }
+  ],
+  "uncertainty": {
+    "iterations": 3000,
+    "mean_losses_kwh": 7047.957712193839,
+    "mean_useful_energy_kwh": 31673.50028780617,
+    "p05_useful_energy_kwh": 30953.603380785993,
+    "p50_useful_energy_kwh": 31666.318016941274,
+    "p95_useful_energy_kwh": 32386.69958460242
+  }
+}

@@ -1,0 +1,27 @@
+name: Energy Power Work Companion
+on:
+  push:
+    paths: ["articles/energy-power-and-work/**", ".github/workflows/energy-power-work.yml"]
+  pull_request:
+    paths: ["articles/energy-power-and-work/**", ".github/workflows/energy-power-work.yml"]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Compile Python
+        run: python -m compileall -q articles/energy-power-and-work/python articles/energy-power-and-work/tests
+      - name: Validate companion
+        run: bash articles/energy-power-and-work/run_all.sh
+      - name: Verify outputs
+        run: |
+          test -s articles/energy-power-and-work/outputs/tables/scenario_summary.csv
+          test -s articles/energy-power-and-work/outputs/tables/analysis_summary.json

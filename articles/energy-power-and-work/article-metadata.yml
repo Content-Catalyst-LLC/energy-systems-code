@@ -1,5 +1,18 @@
 article_title: "Energy, Power, and Work"
-status: planned
+status: implemented
 series: Energy Systems
 slug: "energy-power-and-work"
 repository: energy-systems-code
+computational_companion_version: "1.0.0"
+python_requires: ">=3.10"
+data_classification: synthetic
+methods:
+  - mechanical work and energy equations
+  - trapezoidal power integration
+  - multistage efficiency accounting
+  - deterministic Monte Carlo uncertainty propagation
+outputs:
+  - outputs/tables/scenario_summary.csv
+  - outputs/tables/analysis_summary.json
+  - outputs/figures/power_profile.png
+  - outputs/figures/scenario_energy_balance.png

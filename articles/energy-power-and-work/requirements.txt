@@ -1,0 +1,3 @@
+# Core workflows use only Python's standard library.
+# Matplotlib enables publication figures.
+matplotlib>=3.8
