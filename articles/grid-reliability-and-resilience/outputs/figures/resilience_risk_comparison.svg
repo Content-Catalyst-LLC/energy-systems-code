@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="415" viewBox="0 0 1100 415">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="34" font-family="Arial, sans-serif" font-size="22" font-weight="700">Grid Resilience Scenario Risk</text>
+<text x="24" y="59" font-family="Arial, sans-serif" font-size="13">Synthetic teaching cases; annualized risk combines event probability and consequence.</text>
+<text x="24" y="116" font-family="Arial, sans-serif" font-size="13">Baseline</text>
+<rect x="340" y="98" width="640.00" height="24" fill="currentColor" opacity="0.78"/>
+<text x="988.00" y="115" font-family="Arial, sans-serif" font-size="12">$1.600M/yr</text>
+<text x="24" y="178" font-family="Arial, sans-serif" font-size="13">Flood hardening</text>
+<rect x="340" y="160" width="220.00" height="24" fill="currentColor" opacity="0.78"/>
+<text x="568.00" y="177" font-family="Arial, sans-serif" font-size="12">$0.550M/yr</text>
+<text x="24" y="240" font-family="Arial, sans-serif" font-size="13">Automated switching</text>
+<rect x="340" y="222" width="384.00" height="24" fill="currentColor" opacity="0.78"/>
+<text x="732.00" y="239" font-family="Arial, sans-serif" font-size="12">$0.960M/yr</text>
+<text x="24" y="302" font-family="Arial, sans-serif" font-size="13">Microgrid support</text>
+<rect x="340" y="284" width="320.00" height="24" fill="currentColor" opacity="0.78"/>
+<text x="668.00" y="301" font-family="Arial, sans-serif" font-size="12">$0.800M/yr</text>
+<text x="24" y="364" font-family="Arial, sans-serif" font-size="13">Combined resilience</text>
+<rect x="340" y="346" width="89.60" height="24" fill="currentColor" opacity="0.78"/>
+<text x="437.60" y="363" font-family="Arial, sans-serif" font-size="12">$0.224M/yr</text>
+</svg>

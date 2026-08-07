@@ -1,0 +1,6 @@
+"scenario","annual_probability","consequence_million_usd","service_retained_fraction","annualized_risk_million_usd"
+"Combined resilience",0.008,28,0.86,0.224
+"Flood hardening",0.01,55,0.55,0.55
+"Microgrid support",0.02,40,0.78,0.8
+"Automated switching",0.02,48,0.65,0.96
+"Baseline",0.02,80,0.35,1.6

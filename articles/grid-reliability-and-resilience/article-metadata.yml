@@ -1,5 +1,24 @@
-article_title: "Grid Reliability and Resilience"
-status: planned
+title: Grid Reliability and Resilience
+slug: grid-reliability-and-resilience
 series: Energy Systems
-slug: "grid-reliability-and-resilience"
-repository: energy-systems-code
+series_position: 9
+status: computational-companion-implemented
+article_url: https://sustainablecatalyst.com/grid-reliability-and-resilience/
+repository_url: https://github.com/Content-Catalyst-LLC/energy-systems-code
+python: ">=3.10"
+license: MIT
+methods:
+  - SAIDI
+  - SAIFI
+  - CAIDI
+  - reserve margin
+  - expected unserved energy
+  - frequency response
+  - resilience risk
+  - restoration analysis
+  - adequacy uncertainty
+outputs:
+  - outputs/tables/reliability_summary.csv
+  - outputs/tables/resilience_scenarios.csv
+  - outputs/tables/analysis_summary.json
+  - outputs/figures/resilience_risk_comparison.svg

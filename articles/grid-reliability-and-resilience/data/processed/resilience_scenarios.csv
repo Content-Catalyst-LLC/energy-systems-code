@@ -1,0 +1,6 @@
+name,annual_probability,consequence_million_usd,service_retained_fraction
+Baseline,0.02,80.0,0.35
+Flood hardening,0.01,55.0,0.55
+Automated switching,0.02,48.0,0.65
+Microgrid support,0.02,40.0,0.78
+Combined resilience,0.008,28.0,0.86

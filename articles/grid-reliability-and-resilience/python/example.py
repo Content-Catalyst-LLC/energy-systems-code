@@ -1,4 +1,14 @@
 #!/usr/bin/env python3
-"""Placeholder workflow for Grid Reliability and Resilience."""
+from grid_reliability import OutageEvent, caidi, saidi, saifi
 
-print("Energy Systems planned article workflow: Grid Reliability and Resilience")
+events = [
+    OutageEvent(10000, 2.0),
+    OutageEvent(5000, 4.0),
+    OutageEvent(20000, 1.0),
+]
+
+customers = 100000
+
+print("SAIDI", saidi(events, customers))
+print("SAIFI", saifi(events, customers))
+print("CAIDI", caidi(events, customers))

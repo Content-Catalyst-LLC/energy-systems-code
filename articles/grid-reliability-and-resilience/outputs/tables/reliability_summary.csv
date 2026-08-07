@@ -1,0 +1,7 @@
+metric,value
+total_customers,100000
+event_count,5
+saidi_hours_per_customer,0.63165
+saifi_interruptions_per_customer,0.403
+caidi_hours_per_interruption,1.5673697270471465
+expected_unserved_energy_mwh,14.97

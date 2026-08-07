@@ -1,0 +1,37 @@
+{
+  "article": "Grid Reliability and Resilience",
+  "frequency_deviation_example_hz": -0.06,
+  "reliability": {
+    "caidi_hours_per_interruption": 1.5673697270471465,
+    "event_count": 5,
+    "expected_unserved_energy_mwh": 14.97,
+    "saidi_hours_per_customer": 0.63165,
+    "saifi_interruptions_per_customer": 0.403,
+    "total_customers": 100000
+  },
+  "reserve_margin": 0.16666666666666666,
+  "restoration_service_hours": 30.85,
+  "scenario_count": 5,
+  "series_position": 9,
+  "uncertainty": {
+    "draws": 3000.0,
+    "mean_margin_mw": 6054.615032476514,
+    "mean_shortfall_mw": 7.792482520562997,
+    "p05_margin_mw": 1820.1736000116798,
+    "p50_margin_mw": 6031.857912394924,
+    "p95_margin_mw": 10336.424875014985,
+    "sd_margin_mw": 2569.94178210116,
+    "shortfall_probability": 0.009666666666666667
+  },
+  "validation": {
+    "caidi_positive": true,
+    "eue_nonnegative": true,
+    "five_outage_events": true,
+    "five_resilience_scenarios": true,
+    "frequency_drop_negative": true,
+    "reserve_margin_positive": true,
+    "saidi_positive": true,
+    "saifi_positive": true,
+    "uncertainty_ordered": true
+  }
+}

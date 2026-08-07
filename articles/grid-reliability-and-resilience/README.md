@@ -1,14 +1,31 @@
 # Grid Reliability and Resilience
 
-Status: planned
+Status: computational companion implemented
 
-This folder is reserved for reproducible examples, synthetic data, validation notes, and article-specific computational assets for the planned Energy Systems article "Grid Reliability and Resilience."
+This package provides reproducible reliability and resilience examples for the ninth article in the Sustainable Catalyst Energy Systems series.
 
-## Suggested assets
+## Included methods
 
-- Article-specific synthetic data
-- Python/R/Julia analysis scripts
-- SQL schema or query examples when useful
-- Systems-language examples for performance or simulation concepts
-- Validation notes
-- Figures and tables for publication support
+- SAIDI, SAIFI, and CAIDI
+- Reserve margin
+- Expected unserved energy
+- Frequency-response example
+- Annualized resilience risk
+- Restoration-curve integration
+- Resource-adequacy uncertainty
+- Reliability and resilience scenarios
+- Python, R, Julia, C, and SQL cross-checks
+- Machine-readable CSV and JSON outputs
+- Dependency-free SVG risk visualization
+
+## Run
+
+```bash
+./run_all.sh
+```
+
+The core workflow requires Python 3.10 or later and uses only the Python standard library. Optional R, Julia, C, and SQLite checks run when installed.
+
+## Scope
+
+The datasets are synthetic teaching examples. They illustrate reliability and resilience methods and should not be interpreted as measured utility or regional grid performance.

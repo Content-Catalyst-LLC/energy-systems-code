@@ -1,0 +1,6 @@
+event,customers_affected,duration_hours,unserved_mw,probability
+Storm-A,10000,2.0,42,0.06
+Storm-B,5000,4.0,28,0.04
+Equipment-C,20000,1.0,35,0.1
+Vegetation-D,3500,0.75,12,0.18
+Protection-E,1800,0.3,5,0.22
