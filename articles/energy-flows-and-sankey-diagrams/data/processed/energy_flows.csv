@@ -1,0 +1,27 @@
+source,target,value_mwh,category,note
+Natural gas,Thermal generation,4200.0,primary,Fuel to power generation
+Coal,Thermal generation,2600.0,primary,Fuel to power generation
+Nuclear,Electric generation,1800.0,primary,Electricity accounting input
+Wind and solar,Electric generation,2400.0,primary,Direct renewable electricity
+Hydropower,Electric generation,900.0,primary,Direct renewable electricity
+Thermal generation,Electricity,2856.0,secondary,42 percent fuel-to-electricity efficiency
+Thermal generation,Generation losses,3944.0,loss,Rejected heat and plant losses
+Electric generation,Electricity,5100.0,secondary,Non-combustible electricity
+Electricity,Buildings,2400.0,final,Delivered electricity
+Electricity,Industry,1900.0,final,Delivered electricity
+Electricity,Transport,600.0,final,Delivered electricity
+Electricity,Grid losses,456.0,loss,Transmission and distribution losses
+Electricity,Exports,300.0,export,Net electricity exports
+Electricity,Storage charge,2300.0,storage,Electric storage charging
+Storage charge,Electricity,2094.0,storage,Round-trip returned electricity
+Storage charge,Storage losses,206.0,loss,Round-trip storage losses
+Natural gas,Buildings,1200.0,final,Direct fuel use
+Natural gas,Industry,1700.0,final,Direct fuel use
+Petroleum,Transport,4100.0,final,Liquid transport fuels
+Petroleum,Industry,700.0,final,Industrial fuel and feedstock proxy
+Buildings,Building services,2800.0,useful,"Heat, light, cooling, appliances"
+Buildings,Building losses,800.0,loss,End-use losses
+Industry,Industrial services,2900.0,useful,Process heat and mechanical work
+Industry,Industrial losses,1400.0,loss,End-use losses
+Transport,Mobility,1550.0,useful,Useful mobility equivalent
+Transport,Transport losses,3150.0,loss,Drivetrain and conversion losses

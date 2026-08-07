@@ -1,0 +1,19 @@
+category,total_mwh
+final,12600.0
+primary,11900.0
+loss,9956.0
+secondary,7956.0
+useful,7250.0
+storage,4394.0
+export,300.0
+source,total_outflow_mwh
+Electricity,7956.0
+"Natural gas",7100.0
+"Thermal generation",6800.0
+"Electric generation",5100.0
+Petroleum,4800.0
+Transport,4700.0
+Industry,4300.0
+Buildings,3600.0
+Coal,2600.0
+"Wind and solar",2400.0

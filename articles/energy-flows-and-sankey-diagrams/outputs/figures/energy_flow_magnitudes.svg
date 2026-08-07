@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="964" viewBox="0 0 1200 964">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="36" font-family="Arial, sans-serif" font-size="22" font-weight="700">Energy-flow link magnitudes</text>
+<text x="24" y="58" font-family="Arial, sans-serif" font-size="13">Width is proportional to annual energy flow in the synthetic teaching dataset.</text>
+<text x="24" y="97" font-family="Arial, sans-serif" font-size="12">Natural gas → Thermal generation</text>
+<rect x="430" y="82" width="535.29" height="16" fill="currentColor" opacity="0.78"/>
+<text x="973.29" y="95" font-family="Arial, sans-serif" font-size="11">4,200 MWh</text>
+<text x="24" y="131" font-family="Arial, sans-serif" font-size="12">Coal → Thermal generation</text>
+<rect x="430" y="116" width="331.37" height="16" fill="currentColor" opacity="0.78"/>
+<text x="769.37" y="129" font-family="Arial, sans-serif" font-size="11">2,600 MWh</text>
+<text x="24" y="165" font-family="Arial, sans-serif" font-size="12">Nuclear → Electric generation</text>
+<rect x="430" y="150" width="229.41" height="16" fill="currentColor" opacity="0.78"/>
+<text x="667.41" y="163" font-family="Arial, sans-serif" font-size="11">1,800 MWh</text>
+<text x="24" y="199" font-family="Arial, sans-serif" font-size="12">Wind and solar → Electric generation</text>
+<rect x="430" y="184" width="305.88" height="16" fill="currentColor" opacity="0.78"/>
+<text x="743.88" y="197" font-family="Arial, sans-serif" font-size="11">2,400 MWh</text>
+<text x="24" y="233" font-family="Arial, sans-serif" font-size="12">Hydropower → Electric generation</text>
+<rect x="430" y="218" width="114.71" height="16" fill="currentColor" opacity="0.78"/>
+<text x="552.71" y="231" font-family="Arial, sans-serif" font-size="11">900 MWh</text>
+<text x="24" y="267" font-family="Arial, sans-serif" font-size="12">Thermal generation → Electricity</text>
+<rect x="430" y="252" width="364.00" height="16" fill="currentColor" opacity="0.78"/>
+<text x="802.00" y="265" font-family="Arial, sans-serif" font-size="11">2,856 MWh</text>
+<text x="24" y="301" font-family="Arial, sans-serif" font-size="12">Thermal generation → Generation losses</text>
+<rect x="430" y="286" width="502.67" height="16" fill="currentColor" opacity="0.78"/>
+<text x="940.67" y="299" font-family="Arial, sans-serif" font-size="11">3,944 MWh</text>
+<text x="24" y="335" font-family="Arial, sans-serif" font-size="12">Electric generation → Electricity</text>
+<rect x="430" y="320" width="650.00" height="16" fill="currentColor" opacity="0.78"/>
+<text x="1088.00" y="333" font-family="Arial, sans-serif" font-size="11">5,100 MWh</text>
+<text x="24" y="369" font-family="Arial, sans-serif" font-size="12">Electricity → Buildings</text>
+<rect x="430" y="354" width="305.88" height="16" fill="currentColor" opacity="0.78"/>
+<text x="743.88" y="367" font-family="Arial, sans-serif" font-size="11">2,400 MWh</text>
+<text x="24" y="403" font-family="Arial, sans-serif" font-size="12">Electricity → Industry</text>
+<rect x="430" y="388" width="242.16" height="16" fill="currentColor" opacity="0.78"/>
+<text x="680.16" y="401" font-family="Arial, sans-serif" font-size="11">1,900 MWh</text>
+<text x="24" y="437" font-family="Arial, sans-serif" font-size="12">Electricity → Transport</text>
+<rect x="430" y="422" width="76.47" height="16" fill="currentColor" opacity="0.78"/>
+<text x="514.47" y="435" font-family="Arial, sans-serif" font-size="11">600 MWh</text>
+<text x="24" y="471" font-family="Arial, sans-serif" font-size="12">Electricity → Grid losses</text>
+<rect x="430" y="456" width="58.12" height="16" fill="currentColor" opacity="0.78"/>
+<text x="496.12" y="469" font-family="Arial, sans-serif" font-size="11">456 MWh</text>
+<text x="24" y="505" font-family="Arial, sans-serif" font-size="12">Electricity → Exports</text>
+<rect x="430" y="490" width="38.24" height="16" fill="currentColor" opacity="0.78"/>
+<text x="476.24" y="503" font-family="Arial, sans-serif" font-size="11">300 MWh</text>
+<text x="24" y="539" font-family="Arial, sans-serif" font-size="12">Electricity → Storage charge</text>
+<rect x="430" y="524" width="293.14" height="16" fill="currentColor" opacity="0.78"/>
+<text x="731.14" y="537" font-family="Arial, sans-serif" font-size="11">2,300 MWh</text>
+<text x="24" y="573" font-family="Arial, sans-serif" font-size="12">Storage charge → Electricity</text>
+<rect x="430" y="558" width="266.88" height="16" fill="currentColor" opacity="0.78"/>
+<text x="704.88" y="571" font-family="Arial, sans-serif" font-size="11">2,094 MWh</text>
+<text x="24" y="607" font-family="Arial, sans-serif" font-size="12">Storage charge → Storage losses</text>
+<rect x="430" y="592" width="26.25" height="16" fill="currentColor" opacity="0.78"/>
+<text x="464.25" y="605" font-family="Arial, sans-serif" font-size="11">206 MWh</text>
+<text x="24" y="641" font-family="Arial, sans-serif" font-size="12">Natural gas → Buildings</text>
+<rect x="430" y="626" width="152.94" height="16" fill="currentColor" opacity="0.78"/>
+<text x="590.94" y="639" font-family="Arial, sans-serif" font-size="11">1,200 MWh</text>
+<text x="24" y="675" font-family="Arial, sans-serif" font-size="12">Natural gas → Industry</text>
+<rect x="430" y="660" width="216.67" height="16" fill="currentColor" opacity="0.78"/>
+<text x="654.67" y="673" font-family="Arial, sans-serif" font-size="11">1,700 MWh</text>
+<text x="24" y="709" font-family="Arial, sans-serif" font-size="12">Petroleum → Transport</text>
+<rect x="430" y="694" width="522.55" height="16" fill="currentColor" opacity="0.78"/>
+<text x="960.55" y="707" font-family="Arial, sans-serif" font-size="11">4,100 MWh</text>
+<text x="24" y="743" font-family="Arial, sans-serif" font-size="12">Petroleum → Industry</text>
+<rect x="430" y="728" width="89.22" height="16" fill="currentColor" opacity="0.78"/>
+<text x="527.22" y="741" font-family="Arial, sans-serif" font-size="11">700 MWh</text>
+<text x="24" y="777" font-family="Arial, sans-serif" font-size="12">Buildings → Building services</text>
+<rect x="430" y="762" width="356.86" height="16" fill="currentColor" opacity="0.78"/>
+<text x="794.86" y="775" font-family="Arial, sans-serif" font-size="11">2,800 MWh</text>
+<text x="24" y="811" font-family="Arial, sans-serif" font-size="12">Buildings → Building losses</text>
+<rect x="430" y="796" width="101.96" height="16" fill="currentColor" opacity="0.78"/>
+<text x="539.96" y="809" font-family="Arial, sans-serif" font-size="11">800 MWh</text>
+<text x="24" y="845" font-family="Arial, sans-serif" font-size="12">Industry → Industrial services</text>
+<rect x="430" y="830" width="369.61" height="16" fill="currentColor" opacity="0.78"/>
+<text x="807.61" y="843" font-family="Arial, sans-serif" font-size="11">2,900 MWh</text>
+<text x="24" y="879" font-family="Arial, sans-serif" font-size="12">Industry → Industrial losses</text>
+<rect x="430" y="864" width="178.43" height="16" fill="currentColor" opacity="0.78"/>
+<text x="616.43" y="877" font-family="Arial, sans-serif" font-size="11">1,400 MWh</text>
+<text x="24" y="913" font-family="Arial, sans-serif" font-size="12">Transport → Mobility</text>
+<rect x="430" y="898" width="197.55" height="16" fill="currentColor" opacity="0.78"/>
+<text x="635.55" y="911" font-family="Arial, sans-serif" font-size="11">1,550 MWh</text>
+<text x="24" y="947" font-family="Arial, sans-serif" font-size="12">Transport → Transport losses</text>
+<rect x="430" y="932" width="401.47" height="16" fill="currentColor" opacity="0.78"/>
+<text x="839.47" y="945" font-family="Arial, sans-serif" font-size="11">3,150 MWh</text>
+</svg>

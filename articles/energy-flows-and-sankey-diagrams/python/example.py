@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
-"""Placeholder workflow for Energy Flows and Sankey Diagrams."""
+"""Minimal example used in the article."""
 
-print("Energy Systems planned article workflow: Energy Flows and Sankey Diagrams")
+from energy_flows import Flow, FlowNetwork
+
+network = FlowNetwork([
+    Flow("Fuel", "Power plant", 100.0),
+    Flow("Power plant", "Electricity", 42.0),
+    Flow("Power plant", "Generation losses", 58.0, "loss"),
+])
+network.assert_balanced()
+print(network.balance("Power plant"))

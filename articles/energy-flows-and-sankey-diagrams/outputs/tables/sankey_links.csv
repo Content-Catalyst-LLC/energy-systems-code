@@ -1,0 +1,27 @@
+source,target,value_mwh,category,width_px,note
+Natural gas,Thermal generation,4200.000000,primary,21.411765,Fuel to power generation
+Coal,Thermal generation,2600.000000,primary,13.254902,Fuel to power generation
+Nuclear,Electric generation,1800.000000,primary,9.176471,Electricity accounting input
+Wind and solar,Electric generation,2400.000000,primary,12.235294,Direct renewable electricity
+Hydropower,Electric generation,900.000000,primary,4.588235,Direct renewable electricity
+Thermal generation,Electricity,2856.000000,secondary,14.560000,42 percent fuel-to-electricity efficiency
+Thermal generation,Generation losses,3944.000000,loss,20.106667,Rejected heat and plant losses
+Electric generation,Electricity,5100.000000,secondary,26.000000,Non-combustible electricity
+Electricity,Buildings,2400.000000,final,12.235294,Delivered electricity
+Electricity,Industry,1900.000000,final,9.686275,Delivered electricity
+Electricity,Transport,600.000000,final,3.058824,Delivered electricity
+Electricity,Grid losses,456.000000,loss,2.324706,Transmission and distribution losses
+Electricity,Exports,300.000000,export,1.529412,Net electricity exports
+Electricity,Storage charge,2300.000000,storage,11.725490,Electric storage charging
+Storage charge,Electricity,2094.000000,storage,10.675294,Round-trip returned electricity
+Storage charge,Storage losses,206.000000,loss,1.050196,Round-trip storage losses
+Natural gas,Buildings,1200.000000,final,6.117647,Direct fuel use
+Natural gas,Industry,1700.000000,final,8.666667,Direct fuel use
+Petroleum,Transport,4100.000000,final,20.901961,Liquid transport fuels
+Petroleum,Industry,700.000000,final,3.568627,Industrial fuel and feedstock proxy
+Buildings,Building services,2800.000000,useful,14.274510,"Heat, light, cooling, appliances"
+Buildings,Building losses,800.000000,loss,4.078431,End-use losses
+Industry,Industrial services,2900.000000,useful,14.784314,Process heat and mechanical work
+Industry,Industrial losses,1400.000000,loss,7.137255,End-use losses
+Transport,Mobility,1550.000000,useful,7.901961,Useful mobility equivalent
+Transport,Transport losses,3150.000000,loss,16.058824,Drivetrain and conversion losses

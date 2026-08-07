@@ -1,0 +1,29 @@
+{
+  "article": "Energy Flows and Sankey Diagrams",
+  "link_count": 26,
+  "node_count": 23,
+  "selected_balance_max_abs_residual_mwh": 0.0,
+  "selected_balanced_nodes": [
+    "Thermal generation",
+    "Electric generation",
+    "Storage charge",
+    "Buildings",
+    "Industry",
+    "Transport"
+  ],
+  "series_position": 5,
+  "total_link_flow_mwh": 54356.0,
+  "uncertainty": {
+    "draws": 1000.0,
+    "mean_boundary_residual_mwh": 2095.112452929431,
+    "mean_total_link_flow_mwh": 54374.55249650307,
+    "relative_sigma": 0.025,
+    "sd_boundary_residual_mwh": 248.7357508908868,
+    "sd_total_link_flow_mwh": 322.1407288075725
+  },
+  "validation": {
+    "nonnegative_flows": true,
+    "selected_nodes_conserve": true,
+    "widths_positive_for_positive_flows": true
+  }
+}
