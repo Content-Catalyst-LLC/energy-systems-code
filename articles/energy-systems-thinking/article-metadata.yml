@@ -1,0 +1,15 @@
+title: Energy Systems Thinking
+slug: energy-systems-thinking
+series: Energy Systems
+series_position: 7
+article_url: https://sustainablecatalyst.com/energy-systems-thinking/
+repository_url: https://github.com/Content-Catalyst-LLC/energy-systems-code
+python: ">=3.10"
+methods:
+  - stocks and flows
+  - feedback loops
+  - learning curves
+  - delays and constraints
+  - rebound effects
+  - scenario analysis
+  - deterministic uncertainty

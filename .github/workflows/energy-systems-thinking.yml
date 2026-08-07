@@ -1,0 +1,22 @@
+name: Energy Systems Thinking
+on:
+  push:
+    paths:
+      - "articles/energy-systems-thinking/**"
+      - ".github/workflows/energy-systems-thinking.yml"
+  pull_request:
+    paths:
+      - "articles/energy-systems-thinking/**"
+      - ".github/workflows/energy-systems-thinking.yml"
+jobs:
+  validate:
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: bash articles/energy-systems-thinking/run_all.sh

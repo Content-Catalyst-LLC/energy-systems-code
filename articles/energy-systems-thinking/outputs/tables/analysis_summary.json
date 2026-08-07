@@ -1,0 +1,23 @@
+{
+  "article": "Energy Systems Thinking",
+  "balancing_loop": "balancing",
+  "rebound_fraction": 0.25,
+  "reinforcing_loop": "reinforcing",
+  "scenario_count": 5,
+  "series_position": 7,
+  "uncertainty": {
+    "draws": 1000,
+    "mean_final_capacity_gw": 130.18351320204107,
+    "p05": 107.67807377569308,
+    "p50": 130.30994695488843,
+    "p95": 151.67768821118392,
+    "sd_final_capacity_gw": 13.352914479036949
+  },
+  "validation": {
+    "balancing": true,
+    "five_scenarios": true,
+    "rebound_25_percent": true,
+    "reinforcing": true,
+    "uncertainty_ordered": true
+  }
+}

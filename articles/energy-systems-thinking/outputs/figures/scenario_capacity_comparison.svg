@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="460" viewBox="0 0 1100 460">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="34" font-family="Arial" font-size="22" font-weight="700">Energy Systems Thinking — Scenario Outcomes</text>
+<text x="24" y="97" font-family="Arial" font-size="13">Coordinated build</text>
+<rect x="330" y="80" width="504.65" height="24" fill="currentColor" opacity="0.78"/>
+<text x="842.65" y="97" font-family="Arial" font-size="12">130.8 GW</text>
+<text x="24" y="167" font-family="Arial" font-size="13">Transmission constrained</text>
+<rect x="330" y="150" width="430.18" height="24" fill="currentColor" opacity="0.78"/>
+<text x="768.18" y="167" font-family="Arial" font-size="12">111.5 GW</text>
+<text x="24" y="237" font-family="Arial" font-size="13">Slow permitting</text>
+<rect x="330" y="220" width="317.49" height="24" fill="currentColor" opacity="0.78"/>
+<text x="655.49" y="237" font-family="Arial" font-size="12">82.3 GW</text>
+<text x="24" y="307" font-family="Arial" font-size="13">Manufacturing constrained</text>
+<rect x="330" y="290" width="399.52" height="24" fill="currentColor" opacity="0.78"/>
+<text x="737.52" y="307" font-family="Arial" font-size="12">103.6 GW</text>
+<text x="24" y="377" font-family="Arial" font-size="13">Rapid learning</text>
+<rect x="330" y="360" width="650.00" height="24" fill="currentColor" opacity="0.78"/>
+<text x="988.00" y="377" font-family="Arial" font-size="12">168.5 GW</text>
+</svg>
