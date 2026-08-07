@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import csv
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+RAW = ROOT / "data" / "raw"
+RAW.mkdir(parents=True, exist_ok=True)
+
+rows = [
+    ["High-quality legacy field", 1250000, 18000, 25000, 9000, 11000, 6000, 5000, 0, 7000],
+    ["Mature field", 1250000, 18000, 65000, 18000, 23000, 9000, 7000, 0, 9000],
+    ["Onshore wind", 920000, 62000, 0, 9000, 11000, 13000, 9000, 0, 8000],
+    ["Utility solar", 780000, 59000, 0, 7000, 8000, 10000, 8000, 0, 7000],
+    ["Solar plus storage", 780000, 59000, 0, 7000, 8000, 10000, 8000, 28000, 7000],
+    ["Nuclear reference", 4800000, 210000, 95000, 65000, 110000, 70000, 35000, 0, 80000],
+    ["Hydropower reference", 3200000, 180000, 0, 25000, 45000, 30000, 40000, 0, 50000],
+]
+
+path = RAW / "eroi_projects.csv"
+with path.open("w", newline="", encoding="utf-8") as handle:
+    writer = csv.writer(handle)
+    writer.writerow([
+        "name",
+        "gross_output_mwh",
+        "construction_mwh",
+        "fuel_cycle_mwh",
+        "operations_mwh",
+        "maintenance_mwh",
+        "replacement_mwh",
+        "network_mwh",
+        "storage_mwh",
+        "retirement_mwh",
+    ])
+    writer.writerows(rows)
+
+print(f"Wrote {path}")

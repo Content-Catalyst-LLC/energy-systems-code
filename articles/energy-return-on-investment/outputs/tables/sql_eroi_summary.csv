@@ -1,0 +1,8 @@
+name,gross_output_mwh,invested_mwh,eroi
+"High-quality legacy field",1250000.0,81000.0,15.432099
+"Hydropower reference",3200000.0,370000.0,8.648649
+"Mature field",1250000.0,149000.0,8.389262
+"Onshore wind",920000.0,112000.0,8.214286
+"Utility solar",780000.0,99000.0,7.878788
+"Nuclear reference",4800000.0,665000.0,7.218045
+"Solar plus storage",780000.0,127000.0,6.141732

@@ -1,0 +1,22 @@
+title: Energy Return on Investment
+slug: energy-return-on-investment
+series: Energy Systems
+series_position: 6
+status: computational-companion-implemented
+article_url: https://sustainablecatalyst.com/energy-return-on-investment/
+repository_url: https://github.com/Content-Catalyst-LLC/energy-systems-code
+python: ">=3.10"
+license: MIT
+methods:
+  - EROI
+  - net energy
+  - lifecycle energy investment
+  - boundary sensitivity
+  - energy payback
+  - storage integration
+  - deterministic uncertainty analysis
+outputs:
+  - outputs/tables/eroi_summary.csv
+  - outputs/tables/boundary_sensitivity.csv
+  - outputs/tables/analysis_summary.json
+  - outputs/figures/eroi_comparison.svg

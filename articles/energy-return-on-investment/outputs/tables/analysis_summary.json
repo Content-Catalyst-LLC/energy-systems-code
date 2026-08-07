@@ -1,0 +1,26 @@
+{
+  "article": "Energy Return on Investment",
+  "baseline_eroi": 8.214285714285714,
+  "baseline_net_energy_mwh": 808000.0,
+  "baseline_net_fraction": 0.8782608695652174,
+  "baseline_project": "Onshore wind",
+  "energy_payback_years_example": 2.6315789473684212,
+  "project_count": 7,
+  "series_position": 6,
+  "storage_delivered_eroi_example": 10.61111111111111,
+  "uncertainty": {
+    "draws": 2000.0,
+    "mean_eroi": 8.27173243652885,
+    "mean_net_energy_mwh": 807426.3652588434,
+    "p05_eroi": 7.00305457124677,
+    "p50_eroi": 8.224386425096608,
+    "p95_eroi": 9.719743371765626,
+    "sd_eroi": 0.8254700875039986
+  },
+  "validation": {
+    "all_eroi_positive": true,
+    "all_investments_positive": true,
+    "all_outputs_positive": true,
+    "uncertainty_ordered": true
+  }
+}
