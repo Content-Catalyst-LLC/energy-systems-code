@@ -1,0 +1,51 @@
+{
+  "aggregate": {
+    "final_energy_mwh": 9760.9316,
+    "primary_energy_mwh": 13300.0,
+    "primary_to_final_efficiency": 0.7339046315789474,
+    "primary_to_service_efficiency": 0.4903811168721804,
+    "primary_to_useful_efficiency": 0.5324231578947368,
+    "residual_mwh": 0.0,
+    "service_energy_equivalent_mwh": 6522.0688543999995,
+    "useful_energy_mwh": 7081.227999999999
+  },
+  "article": "Primary, Secondary, and Final Energy",
+  "balance": {
+    "energy_sector_own_use_mwh": 404.0,
+    "final_energy_mwh": 9760.9316,
+    "non_energy_use_mwh": 84.0,
+    "residual_mwh": 0.0,
+    "supply_mwh": 13300.0,
+    "transformation_and_network_loss_mwh": 3051.068400000001
+  },
+  "boundary": "resource input through service-equivalent output",
+  "methodology_note": "Direct-equivalent and substitution accounting are reported separately and must not be mixed silently.",
+  "series_position": 4,
+  "uncertainty": {
+    "primary_to_useful_efficiency": {
+      "mean": 0.3115445765886908,
+      "p05": 0.2765343013631557,
+      "p50": 0.3107898217278363,
+      "p95": 0.34729871803827
+    },
+    "samples": 2500,
+    "seed": 20260806,
+    "service_energy_equivalent_mwh": {
+      "mean": 1063.2604935323202,
+      "p05": 928.4642434202923,
+      "p50": 1059.809446283522,
+      "p95": 1201.6165107986303
+    },
+    "useful_energy_mwh": {
+      "mean": 1121.5604757192868,
+      "p05": 995.5234849073605,
+      "p50": 1118.8433582202106,
+      "p95": 1250.275384937772
+    }
+  },
+  "validation": {
+    "aggregate_residual_within_tolerance": true,
+    "balance_residual_within_tolerance": true,
+    "pathway_residuals_within_tolerance": true
+  }
+}

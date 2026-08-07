@@ -1,0 +1,6 @@
+pathway,label,primary_energy_mwh,conversion_efficiency,delivery_efficiency,end_use_efficiency,service_factor,energy_sector_own_use_fraction,non_energy_use_fraction
+gas_to_building_heat,Natural gas to building heat,4200,0.96,0.98,0.88,0.92,0.025,0.0
+coal_to_electric_motor,Coal to electric motor service,3600,0.38,0.94,0.91,0.95,0.04,0.0
+wind_to_electric_motor,Wind electricity to motor service,1600,1.0,0.95,0.92,0.95,0.015,0.0
+oil_to_mobility,Oil products to mobility service,2800,0.9,0.97,0.24,0.82,0.035,0.03
+biomass_to_industrial_heat,Biomass to industrial heat,1100,0.87,0.96,0.72,0.9,0.03,0.0

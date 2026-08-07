@@ -1,0 +1,6 @@
+"pathway","primary_energy_mwh","secondary_energy_mwh","final_energy_mwh","useful_energy_mwh","service_energy_equivalent_mwh","residual_mwh"
+"gas_to_building_heat",4200,3931.2,3852.576,3390.26688,3119.0455296,0
+"coal_to_electric_motor",3600,1313.28,1234.4832,1123.379712,1067.2107264,0
+"wind_to_electric_motor",1600,1576,1497.2,1377.424,1308.5528,0
+"oil_to_mobility",2800,2356.2,2285.514,548.52336,449.7891552,0
+"biomass_to_industrial_heat",1100,928.29,891.1584,641.634048,577.4706432,0

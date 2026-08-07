@@ -1,5 +1,22 @@
-article_title: "Primary, Secondary, and Final Energy"
-status: planned
+title: Primary, Secondary, and Final Energy
+slug: primary-secondary-and-final-energy
 series: Energy Systems
-slug: "primary-secondary-and-final-energy"
-repository: energy-systems-code
+series_position: 4
+status: computational-companion-implemented
+article_url: https://sustainablecatalyst.com/primary-secondary-and-final-energy/
+repository_url: https://github.com/Content-Catalyst-LLC/energy-systems-code
+python: ">=3.10"
+license: MIT
+methods:
+  - staged energy accounting
+  - transformation and delivery loss accounting
+  - useful-energy estimation
+  - service-equivalent energy estimation
+  - direct-equivalent primary-energy method
+  - substitution primary-energy method
+  - deterministic uncertainty analysis
+outputs:
+  - outputs/tables/pathway_summary.csv
+  - outputs/tables/methodology_comparison.csv
+  - outputs/tables/analysis_summary.json
+  - outputs/figures/energy_accounting_pathways.svg

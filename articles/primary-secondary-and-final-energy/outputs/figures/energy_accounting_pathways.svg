@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="470" viewBox="0 0 980 470">
+<rect width="100%" height="100%" fill="#faf9f6"/>
+<text x="40" y="30" font-family="Arial, sans-serif" font-size="19" fill="#20242a">Energy accounting by pathway</text>
+<rect x="95.0" y="55.0" width="22" height="320.0" fill="#4b5563" opacity="1.00"/>
+<text x="106.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">P</text>
+<rect x="123.0" y="81.5" width="22" height="293.5" fill="#4b5563" opacity="0.84"/>
+<text x="134.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">F</text>
+<rect x="151.0" y="116.7" width="22" height="258.3" fill="#4b5563" opacity="0.68"/>
+<text x="162.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">U</text>
+<rect x="179.0" y="137.4" width="22" height="237.6" fill="#4b5563" opacity="0.52"/>
+<text x="190.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">S</text>
+<text x="143.0" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#30363d">gas to building heat</text>
+<rect x="245.0" y="100.7" width="22" height="274.3" fill="#64748b" opacity="1.00"/>
+<text x="256.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">P</text>
+<rect x="273.0" y="280.9" width="22" height="94.1" fill="#64748b" opacity="0.84"/>
+<text x="284.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">F</text>
+<rect x="301.0" y="289.4" width="22" height="85.6" fill="#64748b" opacity="0.68"/>
+<text x="312.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">U</text>
+<rect x="329.0" y="293.7" width="22" height="81.3" fill="#64748b" opacity="0.52"/>
+<text x="340.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">S</text>
+<text x="293.0" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#30363d">coal to electric mot</text>
+<rect x="395.0" y="253.1" width="22" height="121.9" fill="#7c8a97" opacity="1.00"/>
+<text x="406.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">P</text>
+<rect x="423.0" y="260.9" width="22" height="114.1" fill="#7c8a97" opacity="0.84"/>
+<text x="434.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">F</text>
+<rect x="451.0" y="270.1" width="22" height="104.9" fill="#7c8a97" opacity="0.68"/>
+<text x="462.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">U</text>
+<rect x="479.0" y="275.3" width="22" height="99.7" fill="#7c8a97" opacity="0.52"/>
+<text x="490.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">S</text>
+<text x="443.0" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#30363d">wind to electric mot</text>
+<rect x="545.0" y="161.7" width="22" height="213.3" fill="#8f9aa5" opacity="1.00"/>
+<text x="556.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">P</text>
+<rect x="573.0" y="200.9" width="22" height="174.1" fill="#8f9aa5" opacity="0.84"/>
+<text x="584.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">F</text>
+<rect x="601.0" y="333.2" width="22" height="41.8" fill="#8f9aa5" opacity="0.68"/>
+<text x="612.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">U</text>
+<rect x="629.0" y="340.7" width="22" height="34.3" fill="#8f9aa5" opacity="0.52"/>
+<text x="640.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">S</text>
+<text x="593.0" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#30363d">oil to mobility</text>
+<rect x="695.0" y="291.2" width="22" height="83.8" fill="#a3acb5" opacity="1.00"/>
+<text x="706.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">P</text>
+<rect x="723.0" y="307.1" width="22" height="67.9" fill="#a3acb5" opacity="0.84"/>
+<text x="734.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">F</text>
+<rect x="751.0" y="326.1" width="22" height="48.9" fill="#a3acb5" opacity="0.68"/>
+<text x="762.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">U</text>
+<rect x="779.0" y="331.0" width="22" height="44.0" fill="#a3acb5" opacity="0.52"/>
+<text x="790.0" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#30363d">S</text>
+<text x="743.0" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#30363d">biomass to industria</text>
+<line x1="87" y1="375.0" x2="940" y2="375.0" stroke="#d8dadd" stroke-width="1"/>
+<text x="80" y="379.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#5a6068">0</text>
+<line x1="87" y1="295.0" x2="940" y2="295.0" stroke="#d8dadd" stroke-width="1"/>
+<text x="80" y="299.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#5a6068">1050</text>
+<line x1="87" y1="215.0" x2="940" y2="215.0" stroke="#d8dadd" stroke-width="1"/>
+<text x="80" y="219.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#5a6068">2100</text>
+<line x1="87" y1="135.0" x2="940" y2="135.0" stroke="#d8dadd" stroke-width="1"/>
+<text x="80" y="139.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#5a6068">3150</text>
+<line x1="87" y1="55.0" x2="940" y2="55.0" stroke="#d8dadd" stroke-width="1"/>
+<text x="80" y="59.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#5a6068">4200</text>
+<text x="40" y="445" font-family="Arial, sans-serif" font-size="11" fill="#5a6068">P = primary · F = final · U = useful · S = service-equivalent energy</text>
+</svg>

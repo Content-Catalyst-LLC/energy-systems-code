@@ -1,0 +1,29 @@
+name: Primary Secondary and Final Energy
+
+on:
+  push:
+    paths:
+      - "articles/primary-secondary-and-final-energy/**"
+      - ".github/workflows/primary-secondary-and-final-energy.yml"
+  pull_request:
+    paths:
+      - "articles/primary-secondary-and-final-energy/**"
+      - ".github/workflows/primary-secondary-and-final-energy.yml"
+
+jobs:
+  validate:
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run article workflow
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: bash articles/primary-secondary-and-final-energy/run_all.sh
+      - name: Require clean generated outputs
+        run: git diff --exit-code -- articles/primary-secondary-and-final-energy

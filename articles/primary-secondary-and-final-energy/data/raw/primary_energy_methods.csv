@@ -1,0 +1,5 @@
+technology,electricity_mwh,reference_efficiency
+Wind,1000,0.4
+Solar PV,1000,0.4
+Hydropower,1000,0.4
+Nuclear,1000,0.33
