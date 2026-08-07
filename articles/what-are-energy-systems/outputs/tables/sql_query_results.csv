@@ -1,0 +1,17 @@
+link_throughput_mwh,conversion_and_network_losses_mwh,unavailable_energy_mwh,emissions_t_co2e,variable_cost_usd
+26613.595,8442.422,0.0,1969.0,384547.68
+link_id,loss_mwh,loss_share
+solar_to_plant,3332.5,0.775
+wind_to_plant,2088.0,0.58
+gas_to_plant,1848.0,0.44
+industry_to_service,332.64,0.22
+buildings_to_service,286.856,0.14
+transport_to_service,157.193,0.18
+grid_to_buildings,110.5,0.065
+grid_to_industry,88.0,0.055
+grid_to_transport,65.732,0.07
+gas_to_grid,35.28,0.015
+node_id,name,criticality,delivered_service_mwh_equivalent
+building_service,"Thermal comfort and building services",0.95,1762.116
+industrial_service,"Industrial production service",0.85,1179.36
+mobility_service,"Mobility service",0.8,716.102

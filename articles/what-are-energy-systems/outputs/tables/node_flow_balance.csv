@@ -1,0 +1,15 @@
+node_id,name,kind,carrier,energy_in_mwh,energy_out_mwh,net_accumulation_mwh
+gas_resource,Natural gas supply,resource,natural gas,0,4200.0,-4200.0
+solar_resource,Solar resource,resource,solar radiation,0,4300.0,-4300.0
+wind_resource,Wind resource,resource,wind,0,3600.0,-3600.0
+gas_plant,Combined-cycle gas fleet,conversion,electricity,2352.0,2352.0,0.0
+solar_plant,Solar photovoltaic fleet,conversion,electricity,967.5,967.5,0.0
+wind_plant,Wind generation fleet,conversion,electricity,1512.0,1512.0,0.0
+grid,Transmission and distribution network,network,electricity,4759.0275,4759.0275,0.0
+battery,Grid battery,storage,electricity,488.79999999999995,488.8,-5.684341886080802e-14
+industry,Industrial end-use systems,end_use,electricity,1512.0,1512.0,0.0
+transport,Electric mobility systems,end_use,electricity,873.2955750000001,873.295575,1.1368683772161603e-13
+buildings,Building end-use systems,end_use,electricity,2048.9719999999998,2048.972,-4.547473508864641e-13
+industrial_service,Industrial production service,service,energy service,1179.3600000000001,0,1179.3600000000001
+mobility_service,Mobility service,service,energy service,716.1023714999999,0,716.1023714999999
+building_service,Thermal comfort and building services,service,energy service,1762.1159200000002,0,1762.1159200000002

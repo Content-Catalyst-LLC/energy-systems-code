@@ -1,5 +1,19 @@
-article_title: "What Are Energy Systems?"
-status: planned
-series: Energy Systems
+title: "What Are Energy Systems?"
 slug: "what-are-energy-systems"
-repository: energy-systems-code
+series: "Energy Systems"
+series_position: 1
+status: "computational-companion-implemented"
+article_map_source_of_truth: true
+next_article:
+  title: "Energy, Power, and Work"
+  slug: "energy-power-and-work"
+repository_path: "articles/what-are-energy-systems"
+computational_scope:
+  - "system boundaries"
+  - "resources, conversion, networks, storage, end use, and services"
+  - "energy-flow conservation and losses"
+  - "emissions and variable cost"
+  - "renewable input share"
+  - "critical-service resilience"
+  - "scenario and uncertainty analysis"
+data_classification: "synthetic teaching data"

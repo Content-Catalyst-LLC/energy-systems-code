@@ -1,0 +1,86 @@
+{
+  "article": "What Are Energy Systems?",
+  "boundary": "resource inputs through useful energy services",
+  "interpretation": {
+    "baseline_primary_to_service_efficiency": 0.302279197644628,
+    "baseline_renewable_input_share": 0.6528925619834711,
+    "grid_stress_critical_service_share": 0.7940206715930429
+  },
+  "scenarios": [
+    {
+      "conservation_residual_mwh": 1.8189894035458565e-12,
+      "conversion_and_network_losses_mwh": 8442.4217085,
+      "critical_service_served_share": 0.9999999999999997,
+      "curtailed_or_unallocated_mwh": 0.0,
+      "delivered_final_energy_mwh": 4434.267574999999,
+      "emissions_t_co2e": 1969.0,
+      "overall_primary_to_service_efficiency": 0.302279197644628,
+      "primary_input_mwh": 12100.0,
+      "renewable_input_share": 0.6528925619834711,
+      "scenario": "Baseline",
+      "unavailable_energy_mwh": 0.0,
+      "unserved_service_mwh_equivalent": 9.094947017729282e-13,
+      "useful_service_mwh_equivalent": 3657.578291499999,
+      "variable_cost_usd": 384547.676175
+    },
+    {
+      "conservation_residual_mwh": 9.094947017729282e-13,
+      "conversion_and_network_losses_mwh": 7900.5241031725,
+      "critical_service_served_share": 1.0,
+      "curtailed_or_unallocated_mwh": 413.8823651249995,
+      "delivered_final_energy_mwh": 4589.466940124999,
+      "emissions_t_co2e": 1969.0,
+      "overall_primary_to_service_efficiency": 0.3128589695621901,
+      "primary_input_mwh": 12100.0,
+      "renewable_input_share": 0.6528925619834711,
+      "scenario": "Efficiency",
+      "unavailable_energy_mwh": 0.0,
+      "unserved_service_mwh_equivalent": 0.0,
+      "useful_service_mwh_equivalent": 3785.5935317025,
+      "variable_cost_usd": 384547.67617500003
+    },
+    {
+      "conservation_residual_mwh": -4.547473508864641e-13,
+      "conversion_and_network_losses_mwh": 8723.771228222435,
+      "critical_service_served_share": 0.8795043453923733,
+      "curtailed_or_unallocated_mwh": 533.0700000000002,
+      "delivered_final_energy_mwh": 4210.953326441458,
+      "emissions_t_co2e": 1679.5,
+      "overall_primary_to_service_efficiency": 0.27680927904512226,
+      "primary_input_mwh": 12800.0,
+      "renewable_input_share": 0.734375,
+      "scenario": "Electrification",
+      "unavailable_energy_mwh": 0.0,
+      "unserved_service_mwh_equivalent": 486.0294741388361,
+      "useful_service_mwh_equivalent": 3543.1587717775647,
+      "variable_cost_usd": 348744.2250654928
+    },
+    {
+      "conservation_residual_mwh": 0.0,
+      "conversion_and_network_losses_mwh": 7429.23870936066,
+      "critical_service_served_share": 0.7940206715930429,
+      "curtailed_or_unallocated_mwh": 0.0,
+      "delivered_final_energy_mwh": 3524.17276526177,
+      "emissions_t_co2e": 1236.94,
+      "overall_primary_to_service_efficiency": 0.2812269050541157,
+      "primary_input_mwh": 10336.0,
+      "renewable_input_share": 0.7643188854489165,
+      "scenario": "Grid stress",
+      "unavailable_energy_mwh": 2387.90275,
+      "unserved_service_mwh_equivalent": 750.8170008606603,
+      "useful_service_mwh_equivalent": 2906.7612906393397,
+      "variable_cost_usd": 273530.13605482504
+    }
+  ],
+  "uncertainty": {
+    "efficiency_mean": 0.2929439148899101,
+    "efficiency_p05": 0.2795524226258916,
+    "efficiency_p50": 0.2933487375332595,
+    "efficiency_p95": 0.3048273871337946,
+    "emissions_t_co2e_mean": 1948.9217710508747,
+    "emissions_t_co2e_p05": 1896.1935421634357,
+    "emissions_t_co2e_p95": 1969.0,
+    "iterations": 2000,
+    "seed": 20260806
+  }
+}

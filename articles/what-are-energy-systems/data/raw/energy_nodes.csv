@@ -1,0 +1,15 @@
+node_id,name,kind,carrier,capacity_mw,criticality
+solar_resource,Solar resource,resource,solar radiation,,0.0
+wind_resource,Wind resource,resource,wind,,0.0
+gas_resource,Natural gas supply,resource,natural gas,,0.0
+solar_plant,Solar photovoltaic fleet,conversion,electricity,420,0.25
+wind_plant,Wind generation fleet,conversion,electricity,360,0.25
+gas_plant,Combined-cycle gas fleet,conversion,electricity,520,0.55
+grid,Transmission and distribution network,network,electricity,1100,0.9
+battery,Grid battery,storage,electricity,180,0.7
+buildings,Building end-use systems,end_use,electricity,480,0.75
+industry,Industrial end-use systems,end_use,electricity,430,0.8
+transport,Electric mobility systems,end_use,electricity,210,0.65
+building_service,Thermal comfort and building services,service,energy service,,0.95
+industrial_service,Industrial production service,service,energy service,,0.85
+mobility_service,Mobility service,service,energy service,,0.8

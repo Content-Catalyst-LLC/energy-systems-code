@@ -1,0 +1,30 @@
+name: What Are Energy Systems
+
+on:
+  push:
+    paths:
+      - "articles/what-are-energy-systems/**"
+      - ".github/workflows/what-are-energy-systems.yml"
+  pull_request:
+    paths:
+      - "articles/what-are-energy-systems/**"
+      - ".github/workflows/what-are-energy-systems.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run article workflow
+        run: bash articles/what-are-energy-systems/run_all.sh
+      - name: Check working tree
+        run: git diff --exit-code
