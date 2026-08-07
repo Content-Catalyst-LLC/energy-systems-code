@@ -1,0 +1,5 @@
+bus,angle_rad
+North,0.05
+Central,0.02
+East,-0.01
+South,-0.035

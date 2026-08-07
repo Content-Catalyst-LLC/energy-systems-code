@@ -1,5 +1,23 @@
-article_title: "Electricity Grids"
-status: planned
+title: Electricity Grids
+slug: electricity-grids
 series: Energy Systems
-slug: "electricity-grids"
-repository: energy-systems-code
+series_position: 8
+status: computational-companion-implemented
+article_url: https://sustainablecatalyst.com/electricity-grids/
+repository_url: https://github.com/Content-Catalyst-LLC/energy-systems-code
+python: ">=3.10"
+license: MIT
+methods:
+  - grid balance
+  - DC power flow
+  - transmission utilization
+  - transmission losses
+  - reserve margin
+  - frequency response
+  - storage dispatch
+  - uncertainty analysis
+outputs:
+  - outputs/tables/branch_flows.csv
+  - outputs/tables/bus_balance.csv
+  - outputs/tables/analysis_summary.json
+  - outputs/figures/branch_utilization.svg

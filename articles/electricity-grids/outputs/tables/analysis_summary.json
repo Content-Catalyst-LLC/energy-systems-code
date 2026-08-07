@@ -1,0 +1,31 @@
+{
+  "article": "Electricity Grids",
+  "branch_count": 5,
+  "bus_count": 4,
+  "frequency_deviation_example_hz": -0.06,
+  "overloaded_branches": [],
+  "reserve_margin": 0.11666666666666667,
+  "series_position": 8,
+  "storage_example": {
+    "grid_mw": -250.0,
+    "new_soc_mwh": 636.4768616526351
+  },
+  "system_net_injection_mw": -180.0,
+  "uncertainty": {
+    "draws": 2000.0,
+    "mean_margin_mw": 349.8865182403382,
+    "p05_margin_mw": 86.48231694959713,
+    "p50_margin_mw": 349.52554202004785,
+    "p95_margin_mw": 616.7526864986421,
+    "sd_margin_mw": 160.07742699573333,
+    "shortfall_probability": 0.0145
+  },
+  "validation": {
+    "finite_flows": true,
+    "five_branches": true,
+    "four_buses": true,
+    "nonnegative_losses": true,
+    "positive_limits": true,
+    "uncertainty_ordered": true
+  }
+}

@@ -1,0 +1,6 @@
+name,from_bus,to_bus,reactance_pu,thermal_limit_mw,resistance_pu
+North-Central,North,Central,0.12,900,0.012
+North-East,North,East,0.18,650,0.015
+Central-East,Central,East,0.1,850,0.01
+Central-South,Central,South,0.14,700,0.014
+East-South,East,South,0.11,750,0.011

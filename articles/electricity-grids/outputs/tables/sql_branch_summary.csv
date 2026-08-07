@@ -1,0 +1,6 @@
+branch,flow_mw,thermal_limit_mw,utilization_percent,estimated_loss_mw
+Central-South,39.286,700.0,5.61,0.216071
+North-East,33.333,650.0,5.13,0.166667
+Central-East,30.0,850.0,3.53,0.09
+East-South,22.727,750.0,3.03,0.056818
+North-Central,25.0,900.0,2.78,0.075

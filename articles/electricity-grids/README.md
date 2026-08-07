@@ -1,14 +1,33 @@
 # Electricity Grids
 
-Status: planned
+Status: computational companion implemented
 
-This folder is reserved for reproducible examples, synthetic data, validation notes, and article-specific computational assets for the planned Energy Systems article "Electricity Grids."
+This package provides reproducible grid-analysis examples for the eighth article in the Sustainable Catalyst Energy Systems series.
 
-## Suggested assets
+## Included methods
 
-- Article-specific synthetic data
-- Python/R/Julia analysis scripts
-- SQL schema or query examples when useful
-- Systems-language examples for performance or simulation concepts
-- Validation notes
-- Figures and tables for publication support
+- Supply-demand balance
+- DC power-flow approximation
+- Branch thermal utilization
+- Approximate transmission losses
+- Reserve margin
+- Frequency-response example
+- Storage charging and discharging
+- Bus-level injections
+- Congestion and overload detection
+- Peak-balance uncertainty
+- Python, R, Julia, C, and SQL cross-checks
+- Machine-readable CSV and JSON outputs
+- Dependency-free SVG branch visualization
+
+## Run
+
+```bash
+./run_all.sh
+```
+
+The core workflow requires Python 3.10 or later and uses only the Python standard library. Optional R, Julia, C, and SQLite checks run when installed.
+
+## Scope
+
+The network is a synthetic teaching system. The DC approximation is useful for illustrating active-power flows and congestion but does not replace AC power-flow, transient-stability, protection, or production dispatch studies.
