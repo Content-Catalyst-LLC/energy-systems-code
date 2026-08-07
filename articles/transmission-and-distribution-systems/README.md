@@ -1,14 +1,31 @@
 # Transmission and Distribution Systems
 
-Status: planned
+Status: computational companion implemented
 
-This folder is reserved for reproducible examples, synthetic data, validation notes, and article-specific computational assets for the planned Energy Systems article "Transmission and Distribution Systems."
+This package provides reproducible transmission and distribution examples for the tenth article in the Sustainable Catalyst Energy Systems series.
 
-## Suggested assets
+## Included methods
 
-- Article-specific synthetic data
-- Python/R/Julia analysis scripts
-- SQL schema or query examples when useful
-- Systems-language examples for performance or simulation concepts
-- Validation notes
-- Figures and tables for publication support
+- Three-phase current
+- Resistive line losses
+- Feeder utilization and headroom
+- Transformer loading
+- Simplified voltage-drop screening
+- Congestion cost
+- Hosting-capacity cases
+- Expansion-option ranking
+- Python, R, Julia, C, and SQL cross-checks
+- Machine-readable CSV and JSON outputs
+- Dependency-free SVG feeder visualization
+
+## Run
+
+```bash
+./run_all.sh
+```
+
+The core workflow requires Python 3.10 or later and uses only the Python standard library. Optional R, Julia, C, and SQLite checks run when installed.
+
+## Scope
+
+All network data are synthetic teaching examples. Screening calculations do not replace AC power flow, protection, transient stability, detailed distribution hosting-capacity studies, or utility engineering review.

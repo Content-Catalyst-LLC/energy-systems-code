@@ -1,0 +1,6 @@
+feeder,rating_mva,peak_mva,power_factor,resistance_ohm,reactance_ohm,length_factor
+North,15.0,11.2,0.96,4.5,5.2,0.35
+Central,18.0,16.5,0.95,5.0,6.0,0.48
+East,12.0,9.6,0.97,3.6,4.4,0.28
+South,10.0,8.7,0.94,4.2,5.1,0.39
+Industrial,24.0,20.8,0.98,2.8,3.5,0.61

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="415" viewBox="0 0 1100 415">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="34" font-family="Arial, sans-serif" font-size="22" font-weight="700">Distribution Feeder Peak Utilization</text>
+<text x="24" y="59" font-family="Arial, sans-serif" font-size="13">Synthetic teaching feeders; bar length represents peak apparent-power loading relative to feeder rating.</text>
+<text x="24" y="116" font-family="Arial, sans-serif" font-size="13">North</text>
+<rect x="330" y="98" width="529.45" height="24" fill="currentColor" opacity="0.78"/>
+<text x="867.45" y="115" font-family="Arial, sans-serif" font-size="12">74.7%</text>
+<text x="24" y="178" font-family="Arial, sans-serif" font-size="13">Central</text>
+<rect x="330" y="160" width="650.00" height="24" fill="currentColor" opacity="0.78"/>
+<text x="988.00" y="177" font-family="Arial, sans-serif" font-size="12">91.7%</text>
+<text x="24" y="240" font-family="Arial, sans-serif" font-size="13">East</text>
+<rect x="330" y="222" width="567.27" height="24" fill="currentColor" opacity="0.78"/>
+<text x="905.27" y="239" font-family="Arial, sans-serif" font-size="12">80.0%</text>
+<text x="24" y="302" font-family="Arial, sans-serif" font-size="13">South</text>
+<rect x="330" y="284" width="616.91" height="24" fill="currentColor" opacity="0.78"/>
+<text x="954.91" y="301" font-family="Arial, sans-serif" font-size="12">87.0%</text>
+<text x="24" y="364" font-family="Arial, sans-serif" font-size="13">Industrial</text>
+<rect x="330" y="346" width="614.55" height="24" fill="currentColor" opacity="0.78"/>
+<text x="952.55" y="363" font-family="Arial, sans-serif" font-size="12">86.7%</text>
+</svg>

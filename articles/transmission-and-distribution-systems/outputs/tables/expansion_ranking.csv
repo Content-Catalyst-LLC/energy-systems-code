@@ -1,0 +1,6 @@
+name,score,capacity_per_cost,implementation_years
+Dynamic ratings,0.76,1.5,0.8
+Reconductoring,0.6759999999999999,0.8888888888888888,1.5
+Battery support,0.45342857142857146,0.7142857142857143,1.0
+New substation transformer,0.4485,1.25,2.5
+New feeder,0.3939999999999999,0.6666666666666666,3.0

@@ -1,0 +1,6 @@
+name,capital_cost_million,added_capacity_mw,annual_loss_reduction_mwh,congestion_savings_million_per_year,implementation_years
+New feeder,18.0,12.0,320,1.8,3.0
+Reconductoring,9.0,8.0,780,1.2,1.5
+Dynamic ratings,3.0,4.5,0,0.7,0.8
+Battery support,7.0,5.0,260,0.8,1.0
+New substation transformer,12.0,15.0,180,1.0,2.5

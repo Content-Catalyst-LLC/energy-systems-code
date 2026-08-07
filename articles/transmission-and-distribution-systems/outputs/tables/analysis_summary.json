@@ -1,0 +1,24 @@
+{
+  "article": "Transmission and Distribution Systems",
+  "article_examples": {
+    "congestion_cost_200mwh_usd": 11000.0,
+    "current_500mw_115kv_a": 2510.2185616940255,
+    "current_500mw_345kv_a": 836.739520564675,
+    "three_phase_loss_800a_0_08ohm_kw": 153.6,
+    "transformer_loading_510_on_500": 1.02
+  },
+  "expansion_option_count": 5,
+  "feeder_count": 5,
+  "hosting_case_count": 5,
+  "series_position": 10,
+  "validation": {
+    "all_feeder_losses_nonnegative": true,
+    "article_loss_153_6kw": true,
+    "congestion_cost_11000": true,
+    "five_expansion_options": true,
+    "five_feeders": true,
+    "five_hosting_cases": true,
+    "high_voltage_reduces_current": true,
+    "transformer_loading_102_percent": true
+  }
+}

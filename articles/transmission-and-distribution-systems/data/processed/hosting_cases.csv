@@ -1,0 +1,6 @@
+name,feeder_rating_mva,base_peak_mva,added_load_mw,added_generation_mw,power_factor
+Residential EV growth,15.0,11.2,2.4,0.4,0.96
+Solar export,12.0,7.5,0.0,4.5,0.97
+Fleet charging depot,18.0,13.0,5.5,0.0,0.95
+Battery managed load,10.0,8.7,1.8,1.4,0.94
+Industrial electrification,24.0,20.8,6.5,0.0,0.98

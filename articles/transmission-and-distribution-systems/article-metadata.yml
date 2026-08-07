@@ -1,5 +1,24 @@
-article_title: "Transmission and Distribution Systems"
-status: planned
+title: Transmission and Distribution Systems
+slug: transmission-and-distribution-systems
 series: Energy Systems
-slug: "transmission-and-distribution-systems"
-repository: energy-systems-code
+series_position: 10
+status: computational-companion-implemented
+article_url: https://sustainablecatalyst.com/transmission-and-distribution-systems/
+repository_url: https://github.com/Content-Catalyst-LLC/energy-systems-code
+python: ">=3.10"
+license: MIT
+methods:
+  - three-phase current
+  - line losses
+  - feeder utilization
+  - transformer loading
+  - voltage drop
+  - congestion cost
+  - hosting capacity
+  - expansion planning
+outputs:
+  - outputs/tables/feeder_summary.csv
+  - outputs/tables/hosting_capacity_cases.csv
+  - outputs/tables/expansion_ranking.csv
+  - outputs/tables/analysis_summary.json
+  - outputs/figures/feeder_utilization.svg
