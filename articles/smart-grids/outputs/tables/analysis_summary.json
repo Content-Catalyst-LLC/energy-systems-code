@@ -1,0 +1,38 @@
+{
+  "article": "Smart Grids",
+  "article_examples": {
+    "communications_availability": 0.9999,
+    "demand_response_net_mw": 73.0,
+    "flisr_customer_hours_avoided": 14373.333333333334,
+    "managed_ev_mw": 20.0,
+    "unmanaged_ev_mw": 70.0,
+    "volt_var_savings_mwh": 480.0
+  },
+  "automation_scenario_count": 5,
+  "daily_load_factor": 0.6988636363636364,
+  "daily_peak_mw": 88.0,
+  "der_dispatchable_mw": 33.7204,
+  "der_nameplate_mw": 45.0,
+  "der_resource_count": 5,
+  "interval_count": 24,
+  "series_position": 11,
+  "uncertainty": {
+    "draws": 2500.0,
+    "mean_net_peak_mw": 62.792921683740616,
+    "p05_net_peak_mw": 55.62465026524849,
+    "p50_net_peak_mw": 62.802861616147105,
+    "p95_net_peak_mw": 69.79689556782995,
+    "sd_net_peak_mw": 4.259432804389979
+  },
+  "validation": {
+    "communications_valid": true,
+    "demand_response_73mw": true,
+    "five_automation_scenarios": true,
+    "five_der_resources": true,
+    "flisr_example_matches_article": true,
+    "managed_ev_below_unmanaged": true,
+    "twenty_four_intervals": true,
+    "uncertainty_ordered": true,
+    "volt_var_480mwh": true
+  }
+}

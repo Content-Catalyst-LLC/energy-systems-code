@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="415" viewBox="0 0 1100 415">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="34" font-family="Arial, sans-serif" font-size="22" font-weight="700">Smart-Grid Restoration Benefit</text>
+<text x="24" y="59" font-family="Arial, sans-serif" font-size="13">Synthetic automation scenarios; bar length represents customer interruption-hours avoided.</text>
+<text x="24" y="116" font-family="Arial, sans-serif" font-size="13">Manual switching</text>
+<rect x="350" y="98" width="0.00" height="24" fill="currentColor" opacity="0.78"/>
+<text x="358.00" y="115" font-family="Arial, sans-serif" font-size="12">0 customer-hours</text>
+<text x="24" y="178" font-family="Arial, sans-serif" font-size="13">FLISR basic</text>
+<rect x="350" y="160" width="508.92" height="24" fill="currentColor" opacity="0.78"/>
+<text x="866.92" y="177" font-family="Arial, sans-serif" font-size="12">13,393 customer-hours</text>
+<text x="24" y="240" font-family="Arial, sans-serif" font-size="13">FLISR advanced</text>
+<rect x="350" y="222" width="546.16" height="24" fill="currentColor" opacity="0.78"/>
+<text x="904.16" y="239" font-family="Arial, sans-serif" font-size="12">14,373 customer-hours</text>
+<text x="24" y="302" font-family="Arial, sans-serif" font-size="13">Automated alternate feeder</text>
+<rect x="350" y="284" width="591.82" height="24" fill="currentColor" opacity="0.78"/>
+<text x="949.82" y="301" font-family="Arial, sans-serif" font-size="12">15,575 customer-hours</text>
+<text x="24" y="364" font-family="Arial, sans-serif" font-size="13">Microgrid-assisted restoration</text>
+<rect x="350" y="346" width="620.00" height="24" fill="currentColor" opacity="0.78"/>
+<text x="978.00" y="363" font-family="Arial, sans-serif" font-size="12">16,317 customer-hours</text>
+</svg>

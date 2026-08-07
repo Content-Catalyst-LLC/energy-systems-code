@@ -1,5 +1,25 @@
-article_title: "Smart Grids"
-status: planned
+title: Smart Grids
+slug: smart-grids
 series: Energy Systems
-slug: "smart-grids"
-repository: energy-systems-code
+series_position: 11
+status: computational-companion-implemented
+article_url: https://sustainablecatalyst.com/smart-grids/
+repository_url: https://github.com/Content-Catalyst-LLC/energy-systems-code
+python: ">=3.10"
+license: MIT
+methods:
+  - interval demand
+  - load factor
+  - managed charging
+  - demand response
+  - volt-var optimization
+  - FLISR restoration
+  - communications availability
+  - DER aggregation
+  - flexible peak uncertainty
+outputs:
+  - outputs/tables/interval_demand_summary.csv
+  - outputs/tables/der_summary.csv
+  - outputs/tables/automation_summary.csv
+  - outputs/tables/analysis_summary.json
+  - outputs/figures/automation_restoration_benefit.svg

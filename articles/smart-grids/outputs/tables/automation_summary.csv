@@ -1,0 +1,6 @@
+scenario,restoration_fraction,customer_hours_avoided
+Manual switching,0.18333333333333332,0.0
+FLISR basic,0.8166666666666667,13393.333333333334
+FLISR advanced,0.8166666666666667,14373.333333333334
+Automated alternate feeder,0.875,15575.0
+Microgrid-assisted restoration,0.9166666666666666,16316.666666666666

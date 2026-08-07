@@ -1,0 +1,6 @@
+name,power_mw,availability,response_fraction
+Community battery,8.0,0.96,0.9
+Managed EV charging,12.0,0.92,0.78
+Commercial demand response,10.0,0.88,0.85
+Smart thermostats,6.0,0.9,0.7
+Industrial flexibility,9.0,0.94,0.82

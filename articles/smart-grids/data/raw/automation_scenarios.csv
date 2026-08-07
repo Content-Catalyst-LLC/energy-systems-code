@@ -1,0 +1,6 @@
+scenario,total_customers,customers_restored,manual_minutes,automated_minutes
+Manual switching,12000,2200,90,90
+FLISR basic,12000,9800,90,8
+FLISR advanced,12000,9800,90,2
+Automated alternate feeder,12000,10500,90,1
+Microgrid-assisted restoration,12000,11000,90,1
