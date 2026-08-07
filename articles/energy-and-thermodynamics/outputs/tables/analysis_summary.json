@@ -1,0 +1,45 @@
+{
+  "article": "Energy and Thermodynamics",
+  "baseline": {
+    "actual_efficiency": 0.3663973759339124,
+    "carnot_efficiency": 0.6317196136791594,
+    "cold_temperature_k": 303.15,
+    "entropy_generation_mj_per_k": 0.8752176735782515,
+    "exergy_efficiency": 0.5799999999999998,
+    "exergy_input_mj": 631.7196136791595,
+    "first_law_residual_mj": 0.0,
+    "heat_input_mj": 1000.0,
+    "heat_pump_cop_heating": 0.7123413461538461,
+    "heat_rejected_mj": 633.6026240660876,
+    "hot_temperature_k": 823.15,
+    "scenario": "baseline_steam_cycle",
+    "storage_residual_mj": 0.0,
+    "storage_round_trip_efficiency": 0.8290799999999999,
+    "three_stage_delivery_efficiency": 0.82062,
+    "work_output_mj": 366.39737593391243
+  },
+  "uncertainty": {
+    "efficiency_mean": 0.36610520765429444,
+    "efficiency_p05": 0.31431127869373104,
+    "efficiency_p50": 0.36606182452984737,
+    "efficiency_p95": 0.41887336437424333,
+    "efficiency_std": 0.031915147348959276,
+    "entropy_generation_p50": 0.8766404614149167,
+    "samples": 5000,
+    "seed": 20260806,
+    "work_output_p05": 314.311278693731,
+    "work_output_p50": 366.0618245298474,
+    "work_output_p95": 418.87336437424335
+  },
+  "units": {
+    "energy": "MJ",
+    "entropy": "MJ/K",
+    "temperature": "K"
+  },
+  "validation": {
+    "all_actual_efficiencies_below_carnot": true,
+    "maximum_first_law_residual_mj": 0.0,
+    "minimum_entropy_generation_mj_per_k": 0.13767718671493578,
+    "scenario_count": 5
+  }
+}

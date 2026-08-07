@@ -1,5 +1,21 @@
-article_title: "Energy and Thermodynamics"
-status: planned
+title: Energy and Thermodynamics
+slug: energy-and-thermodynamics
 series: Energy Systems
-slug: "energy-and-thermodynamics"
-repository: energy-systems-code
+series_position: 3
+status: computational-companion-implemented
+article_url: https://sustainablecatalyst.com/energy-and-thermodynamics/
+repository_url: https://github.com/Content-Catalyst-LLC/energy-systems-code
+python: ">=3.10"
+license: MIT
+methods:
+  - first-law energy balance
+  - Carnot efficiency
+  - entropy generation
+  - exergy of heat
+  - heat-pump coefficient of performance
+  - thermal-storage accounting
+  - deterministic uncertainty analysis
+outputs:
+  - outputs/tables/scenario_summary.csv
+  - outputs/tables/analysis_summary.json
+  - outputs/figures/scenario_efficiency.svg

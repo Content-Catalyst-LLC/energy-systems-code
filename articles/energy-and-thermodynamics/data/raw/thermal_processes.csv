@@ -1,0 +1,6 @@
+scenario,hot_temperature_k,cold_temperature_k,heat_input_mj,second_law_fraction,ambient_temperature_k,heat_pump_fraction,charge_efficiency,discharge_efficiency,retention_fraction
+baseline_steam_cycle,823.15,303.15,1000.0,0.58,303.15,0.45,0.94,0.9,0.98
+higher_temperature_source,973.15,303.15,1000.0,0.58,303.15,0.45,0.94,0.9,0.98
+improved_cycle_design,823.15,303.15,1000.0,0.7,303.15,0.5,0.96,0.92,0.99
+hot_weather_sink,823.15,318.15,1000.0,0.58,318.15,0.45,0.94,0.9,0.97
+low_temperature_heat_pump,323.15,278.15,500.0,0.45,278.15,0.48,0.96,0.93,0.99

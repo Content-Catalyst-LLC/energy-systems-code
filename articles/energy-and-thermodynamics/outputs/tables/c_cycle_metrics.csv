@@ -1,0 +1,2 @@
+scenario,carnot_efficiency,actual_efficiency,work_output_mj,heat_rejected_mj,entropy_generation_mj_per_k,first_law_residual_mj
+baseline_steam_cycle,0.631719613679,0.366397375934,366.397375934,633.602624066,0.875217673578,0.000000000000
