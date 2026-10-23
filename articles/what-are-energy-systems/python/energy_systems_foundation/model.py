@@ -37,6 +37,9 @@ class EnergyNode:
             raise ValueError("Criticality must be in [0, 1]")
 
 
+# Teaching-model link: input energy is MWh, emissions are kg CO2e per input
+# MWh, and variable cost is USD per input MWh. Efficiency/availability are
+# fractions in [0, 1]. These declared inputs are not measured grid flows.
 @dataclass(frozen=True, slots=True)
 class EnergyLink:
     link_id: str
@@ -108,6 +111,9 @@ class ScenarioResult:
         return asdict(self)
 
 
+# A directed acyclic teaching graph; validation rejects duplicate IDs,
+# unknown endpoints, self-loops and cycles. The topological order supports
+# deterministic flow accounting, not a full electrical-grid power-flow solve.
 @dataclass(frozen=True, slots=True)
 class EnergySystem:
     nodes: tuple[EnergyNode, ...]
