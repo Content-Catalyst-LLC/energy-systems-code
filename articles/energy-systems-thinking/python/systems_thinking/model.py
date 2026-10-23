@@ -79,6 +79,10 @@ def loop_type(polarities):
     return "reinforcing" if product > 0 else "balancing"
 
 
+# Seeded illustrative capacity scenarios: independently perturb base build
+# with 10% Gaussian scale and permitting factor with 0.05 Gaussian scale,
+# then clip each to its allowed range. Report final-capacity sample quantiles
+# in GW. These priors are assumptions; outputs are not calibrated forecasts.
 def monte_carlo(s: Scenario, draws=1000, seed=20260806):
     if draws <= 0:
         raise ValueError("draws must be positive")
